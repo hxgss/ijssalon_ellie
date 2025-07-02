@@ -42,3 +42,8 @@ def meervoudig(invoer_lijst):
     return laagste, hoogste
 
 print(meervoudig([10, 5, 3, 2, 1, 2, 9]))
+
+def combinatie(invoer_lijst_2):
+    korte_lijst = laag_en_hoog(invoer_lijst_2)
+    uitvoer = mijn_functie_2(korte_lijst[0], korte_lijst[1])
+    return uitvoer
